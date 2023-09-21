@@ -215,7 +215,7 @@ if __name__ == "__main__":
     uow.department_repository.add(department1)
 
     # Updating entities
-    student1.name = "John Smith"
+    student1.name = "Ali Hamza"
     uow.student_repository.update(student1)
 
     # Getting entities by ID
