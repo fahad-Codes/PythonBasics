@@ -68,4 +68,36 @@ my_array.remove(2)
 # Clearing all elements from an array
 my_array.clear()
 
+# next function
+numb = iter([256, 312, 812])  # Creating iterator
+
+# Calling function
+
+itemm = next(numb)
+
+# Displaying the result
+
+print(itemm)
+
+# displaying the second item
+
+itemm = next(numb)
+
+print(item)
+
+# displaying the third item
+
+itemm = next(numb)
+
+print(itemm)
+
+# Output:
+
+# 256
+
+# 32
+
+# 82
+
+
 # Arrays in Python provide a flexible and powerful way to work with collections of data.
